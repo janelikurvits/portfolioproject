@@ -1,3 +1,6 @@
+html{
+    scroll-behavior:smooth;
+}
 html, body {
     height:100%;
     padding:0;
@@ -50,6 +53,15 @@ html, body {
 #portfolio-button a:hover {
     background-color: #ce406b;
     border: 3px solid #ce406b;
+}
+
+@media only screen and (max-width: 1000px) {
+    #portfolio-button a {
+        margin-top: 70px;
+    }
+    #home h1 {
+        width: 80%;
+    }
 }
 /*Moving Background*/
 @keyframes move {
@@ -256,7 +268,6 @@ html, body {
 .nav-bar ul li a:hover {
     color: #5ccbda;
 }
-
 /*About*/
 #about {
     font-family: 'Lobster', cursive;
@@ -303,6 +314,18 @@ html, body {
     font-family: 'Lobster', cursive;
     font-size: 28px;
     color: #0A0E3ADD;
+}
+
+@media only screen and (max-width: 767px) {
+    .about span {
+        padding: 10px;
+    }
+    .icon h3 {
+        font-size: 23px;
+    }
+    #about {
+        font-size: 25px;
+    }
 }
 
 /*Who Am I and Skills*/
@@ -416,6 +439,23 @@ html, body {
     }
 }
 
+@media only screen and (max-width: 767px) {
+    .who-am-i h3 {
+        font-size: 35px;
+    }
+    #myskills {
+        font-size: 31px;
+    }
+    .who-am-i p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .bar {
+        width: 70%;
+    }
+}
 /*Portfolio*/
 #portfolio {
     background-color: white;
@@ -433,12 +473,26 @@ html, body {
 
 .mywork-wanderlust {
     background-color: white;
-    margin-top: -20px;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
+}
+
+.mywork-wanderlust img {
+    background-color: white;
+    margin-top: -20px;
     padding-bottom: 80px;
 }
 
+@media only screen and (max-width: 767px) {
+    #portfolio h3 {
+        font-size: 36px;
+    }
+    .mywork-wanderlust img {
+        height: auto;
+        max-width: 100%;
+    }
+}
 /*Contact Info*/
 #contact {
     width:100%;

@@ -5,68 +5,125 @@
     <title>Janeli Kurvits</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
 </head>
 <body>
-<div id="home">
-    <h1>Hello, I'm Janeli Kurvits.<br>
-I'm a Front-End Web Developer.</h1>
-</div>
 
-<div class="portfolio-button">
-    <a href="#portfolio">Check out my work</a>
+<div id="home">
+    <div class="background">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <h1>Hello, I'm <span style="color: #5ccbda">Janeli Kurvits</span>.<br>
+        I'm a Front-End Web Developer.</h1>
+    <div id="portfolio-button">
+        <a href="#portfolio">Check out my work →</a>
+    </div>
 </div>
 
 <div class="nav-bar">
-<ul>
-    <li><a href="#home">home</a></li>
-    <li><a href="#about">about</a></li>
-    <li><a href="#portfolio">portfolio</a></li>
-    <li><a href="#contact">contact</a></li>
-</ul>
+    <ul>
+        <li><a href="#home">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#portfolio">portfolio</a></li>
+        <li><a href="#contact">contact</a></li>
+    </ul>
 </div>
 
 <div id="about"><h2>about</h2></div>
 
 <div class="about">
-    <span class="material-icons">speed</span>
-    <h3>Fast</h3>
-    <span class="material-icons">devices</span>
-    <h3>Responsive</h3>
-    <span class="material-icons">rocket_launch</span>
-    <h3>Dynamic</h3>
-    <span class="material-icons">handshake</span>
-    <h3>Easy to work with</h3>
+    <div class="about-icons">
+        <div class="icon"><span class="material-icons">speed</span>
+            <h3>Fast</h3></div>
+        <div class="icon"><span class="material-icons">devices</span>
+            <h3>Responsive</h3></div>
+        <div class="icon"><span class="material-icons">rocket_launch</span>
+            <h3>Dynamic</h3></div>
+        <div class="icon"><span class="material-icons">handshake</span>
+            <h3>Easy to work with</h3></div>
+    </div>
 </div>
 
 <div class="who-am-i">
     <h3>Who am I?</h3>
     <p>I'm a Front-End Developer based in Tartu, Estonia. I have a passion for UI effects
-        and creating dynamic user experiences.</p>
+        and creating dynamic user experiences.<br> I have completed the CodeAcademy Front-End career path!</p>
 </div>
 
-<h3>My Skills</h3>
-<p>HTML</p>
-<div class="container">
-    <div class="skill-html">60%</div>
-</div>
+<div id="myskills"><h3>My Skills</h3></div>
 
-<p>CSS</p>
-<div class="container">
-    <div class="skill-css">50%</div>
-</div>
+<div class="wrapper">
+    <div class="container">
 
-<p>JavaScipt</p>
-<div class="container">
-    <div class="skill-js">30%</div>
-</div>
 
+        <div class="skills">
+            <div class="details">
+                <span>CSS</span>
+                <span>60%</span>
+            </div>
+            <div class="bar">
+                <div id="css-bar"></div>
+            </div>
+        </div>
+
+        <div class="skills">
+            <div class="details">
+                <span>HTML</span>
+                <span>70%</span>
+            </div>
+            <div class="bar">
+                <div id="html-bar"></div>
+            </div>
+        </div>
+
+        <div class="skills">
+            <div class="details">
+                <span>JavaScript</span>
+                <span>30%</span>
+            </div>
+            <div class="bar">
+                <div id="js-bar"></div>
+            </div>
+        </div>
+
+        <div class="skills">
+            <div class="details">
+                <span>Photoshop</span>
+                <span>60%</span>
+            </div>
+            <div class="bar">
+                <div id="ps-bar"></div>
+            </div>
+        </div>
+
+    </div>
+</div>
 <div id="portfolio">
     <h3>My Work</h3>
 </div>
 
-<div>
+<div class="mywork-wanderlust">
     <a href="https://janelikurvits.github.io/candleshop/#" target="_blank"><img src="photos/wanderlust.png"></a>
 </div>
+
 <div id="contact">
     <h3>Contact Me</h3>
     <p>Want more information?</p>
@@ -75,23 +132,19 @@ I'm a Front-End Web Developer.</h1>
             <input type="text" id="fname" name="fullname" placeholder="Name">
             <input type="text" id="email" name="email" placeholder="Your Email">
             <textarea id="subject" name="subject" placeholder="Your Message" style="height:200px"></textarea>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" id="submit">
         </form>
     </div>
 </div>
 
-<div class="arrow-up">
-    <p>&#187</p>
-</div>
 <div class="socials">
-    <!-- Add icon library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <!-- Add font awesome icons -->
     <a href="https://www.facebook.com/janelikurvits" class="fa fa-facebook" target="_blank"></a>
     <a href="https://www.instagram.com/janelikurvits/" class="fa fa-instagram" target="_blank"></a>
     <a href="https://www.linkedin.com/in/janeli-kurvits-049ba016a/" class="fa fa-linkedin" target="_blank"></a>
     <a href="https://github.com/janelikurvits" class="fa fa-github" target="_blank"></a>
 </div>
+
 </body>
+<script type="text/javascript" src="javascript.js"></script>
 </html>

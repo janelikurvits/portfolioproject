@@ -1,6 +1,6 @@
 let itemOne = document.getElementById('portfolio-button');
 function changeArrowPosition(){
-    itemOne.innerHTML = '<a href="#portfolio">Check out my work ↓</a>';
+    itemOne.innerHTML = 'Check out my work ↓';
 }
 
 itemOne.addEventListener('onmouseover', changeArrowPosition);

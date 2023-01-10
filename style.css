@@ -324,7 +324,7 @@ html, body {
     color: #0A0E3ADD;
 }
 
-@media only screen and (max-width: 767px) {
+/*@media only screen and (max-width: 767px) {
     .about span {
         padding: 10px;
     }
@@ -334,7 +334,7 @@ html, body {
     #about {
         font-size: 25px;
     }
-}
+}*/
 
 /*Who Am I and Skills*/
 .who-am-i {
@@ -448,15 +448,9 @@ html, body {
 }
 
 @media only screen and (max-width: 767px) {
-    .who-am-i h3 {
-        font-size: 35px;
-    }
-    #myskills {
-        font-size: 31px;
-    }
     .who-am-i p {
         width: 70%;
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
@@ -494,9 +488,6 @@ html, body {
 }
 
 @media only screen and (max-width: 767px) {
-    #portfolio h3 {
-        font-size: 36px;
-    }
     .mywork-wanderlust img {
         height: auto;
         max-width: 100%;

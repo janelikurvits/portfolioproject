@@ -324,6 +324,26 @@ html, body {
     color: #0A0E3ADD;
 }
 
+@media only screen and (max-width: 767px){
+    .icon h3 {
+        font-size: 35px;
+    }
+    #title {
+        font-size: 45px;
+    }
+    #who-am-i h3 {
+        font-size: 45px;
+    }
+    #myskills {
+        font-size: 40px;
+    }
+    #portfolio h3 {
+        font-size: 45px;
+    }
+    #contact h3 {
+        font-size: 45px;
+    }
+}
 /*@media only screen and (max-width: 767px) {
     .about span {
         padding: 10px;

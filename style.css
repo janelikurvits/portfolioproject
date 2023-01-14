@@ -476,15 +476,19 @@ html, body {
 
 .mywork-wanderlust {
     background-color: white;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
+    flex-direction: column;
     margin: 0 auto;
+    width: 100%;
 }
 
-.mywork-wanderlust img {
+#portfolioimage {
     background-color: white;
     margin-top: -20px;
     padding-bottom: 80px;
+    align-items: center;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 767px) {

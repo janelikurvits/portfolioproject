@@ -1,7 +1,11 @@
-let itemOne = document.getElementById('portfolio-button');
-function changeArrowPosition(){
-    itemOne.innerHTML = 'Check out my work ↓';
+let itemOne = document.getElementById('portfoliotext');
+let changeArrowPosition = function(){
+    itemOne.innerHTML = 'Check out my work  ↓';
 }
 
-itemOne.addEventListener('onmouseover', changeArrowPosition);
-itemOne.removeEventListener('mouseout', changeArrowPosition);
+let changeBackArrow = function (){
+    itemOne.innerHTML = 'Check out my work →';
+}
+
+itemOne.onmouseover = changeArrowPosition;
+itemOne.onmouseout = changeBackArrow;

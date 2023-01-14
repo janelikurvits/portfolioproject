@@ -58,7 +58,7 @@ html, body {
 
 @media only screen and (max-width: 1000px) {
     #portfolio-button a {
-        margin-top: 70px;
+        margin-top: 40px;
     }
     #home h1 {
         width: 80%;
